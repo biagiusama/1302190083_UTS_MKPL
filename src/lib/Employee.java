@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Date;
 
 public class Employee {
 
@@ -13,9 +14,7 @@ public class Employee {
 	private String idNumber;
 	private String address;
 	
-	private int yearJoined;
-	private int monthJoined;
-	private int dayJoined;
+	private Date yearJoined;
 	private int monthWorkingInYear;
 	
 	private boolean isForeigner;
@@ -38,8 +37,6 @@ public class Employee {
 		this.idNumber = idNumber;
 		this.address = address;
 		this.yearJoined = yearJoined;
-		this.monthJoined = monthJoined;
-		this.dayJoined = dayJoined;
 		this.isForeigner = isForeigner;
 		this.gender = gender;
 		
