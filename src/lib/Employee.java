@@ -18,8 +18,7 @@ public class Employee {
 	private int monthWorkingInYear;
 	
 	private boolean isForeigner;
-	private boolean gender; //true = Laki-laki, false = Perempuan
-	
+	private boolean gender;
 	private int monthlySalary;
 	private int otherMonthlyIncome;
 	private int annualDeductible;
@@ -58,12 +57,12 @@ public class Employee {
 		}else if (grade == 2) {
 			monthlySalary = 5000000;
 			if (isForeigner) {
-				monthlySalary = (int) (3000000 * 1.5);
+				monthlySalary = (int) (5000000 * 1.5);
 			}
 		}else if (grade == 3) {
 			monthlySalary = 7000000;
 			if (isForeigner) {
-				monthlySalary = (int) (3000000 * 1.5);
+				monthlySalary = (int) (7000000 * 1.5);
 			}
 		}
 	}
